@@ -1,6 +1,5 @@
 package com.asa.base.utils.data.bytes;
 
-import com.asa.utils.data.bytes.BytesSequence;
 
 import java.io.IOException;
 

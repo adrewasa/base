@@ -1,6 +1,5 @@
 package com.asa.base.utils.data.bytes;
 
-import com.asa.utils.data.bytes.BytesSequence;
 
 /**
  * Created by andrew_asa on 2017/7/20.
