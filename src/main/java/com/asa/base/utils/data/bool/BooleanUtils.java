@@ -68,6 +68,31 @@ public class BooleanUtils {
         return Boolean.TRUE.equals(bool);
     }
 
+    public static boolean isTrue(int o) {
+
+        return o != 0;
+    }
+
+    public static boolean isTrue(short o) {
+
+        return o != 0;
+    }
+
+    public static boolean isTrue(long o) {
+
+        return o != 0;
+    }
+
+    public static boolean isTrue(byte o) {
+
+        return o != 0x00;
+    }
+
+    public static boolean isTrue(char o) {
+
+        return o != 0x00;
+    }
+
     /**
      * <p>Checks if a {@code Boolean} value is <i>not</i> {@code true},
      * handling {@code null} by returning {@code true}.</p>
