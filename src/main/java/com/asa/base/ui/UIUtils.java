@@ -6,9 +6,9 @@ import java.io.File;
 /**
  * Created by andrew_asa on 2017/7/30.
  */
-public class UiUitls {
+public class UIUtils {
 
-    private UiUitls() {
+    private UIUtils() {
 
     }
 
