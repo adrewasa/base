@@ -40,12 +40,18 @@ public class UIUtils {
 
     public static File chooseSelect(int mode, String text) {
 
+        return chooseSelect(mode, text, null);
+    }
+
+    public static File chooseSelect(int mode, String text, File currentDir) {
+
         JFileChooser jfc = new JFileChooser();
+        if (currentDir != null && currentDir.isDirectory()) {
+            jfc.setCurrentDirectory(currentDir);
+        }
         jfc.setFileSelectionMode(mode);
         jfc.showDialog(new JLabel(), text);
         File file = jfc.getSelectedFile();
         return file;
     }
-
-
 }

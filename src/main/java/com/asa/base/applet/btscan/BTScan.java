@@ -1,7 +1,7 @@
 package com.asa.base.applet.btscan;
 
 
-import com.asa.base.io.IOUtils;
+import com.asa.base.utils.io.IOUtils;
 import com.asa.base.utils.data.GeneralUtils;
 import com.asa.base.utils.net.IPUtils;
 import org.apache.commons.cli.CommandLine;
